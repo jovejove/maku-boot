@@ -18,6 +18,9 @@ public class SysUserQuery extends Query {
     @Schema(description = "用户名")
     private String username;
 
+    @Schema(description = "姓名")
+    private String realName;
+
     @Schema(description = "手机号")
     private String mobile;
 
